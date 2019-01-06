@@ -94,7 +94,7 @@ public class TextUtils {
 		String regEx="[0-9]"; 
 		Pattern p = Pattern.compile(regEx); 
 		Matcher m = p.matcher(key);
-		return m.replaceAll("").trim();
+		return m.replaceAll("");
 	}
 	
 	public static String delSpaceAndLineTag(String key) {
